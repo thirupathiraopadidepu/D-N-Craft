@@ -26,7 +26,7 @@ export default function Footer() {
               <li>
                 <Link
                   to="/"
-                  className="text-#01334c hover:text-300 hover:text-white transition"
+                  className="text-#01334c hover:text-300 hover:text-[orange] transition"
                 >
                   Home
                 </Link>
@@ -34,7 +34,7 @@ export default function Footer() {
               <li>
                 <Link
                   to="/about"
-                  className="text-#01334c hover:text-300 hover:text-white transition"
+                  className="text-#01334c hover:text-300 hover:text-[orange] transition"
                 >
                   About
                 </Link>
@@ -42,7 +42,7 @@ export default function Footer() {
               <li>
                 <Link
                   to="/services"
-                  className="text-#01334c hover:text-300 hover:text-white transition "
+                  className="text-#01334c hover:text-300 hover:text-[orange] transition "
                 >
                   Services
                 </Link>
@@ -50,7 +50,7 @@ export default function Footer() {
               <li>
                 <Link
                   to="/projects"
-                  className="text-#01334c hover:text-300 hover:text-white transition"
+                  className="text-#01334c hover:text-300 hover:text-[orange] transition"
                 >
                   Projects
                 </Link>
@@ -79,7 +79,7 @@ export default function Footer() {
                 href="https://www.facebook.com/example"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-#01334c-300 hover:text-white transition"
+                className="text-#01334c-300 hover:text-[orange] transition"
               >
                 <Facebook className="w-5 h-5" />
               </motion.a>
@@ -90,7 +90,7 @@ export default function Footer() {
                 href="https://www.instagram.com/dncr.aft?igsh=MTZuZGNieGU0bmk0cw=="
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-#01334c-300 hover:text-white transition"
+                className="text-#01334c-300 hover:text-[orange] transition"
               >
                 <Instagram className="w-5 h-5" />
               </motion.a>
@@ -101,7 +101,7 @@ export default function Footer() {
                 href="https://www.linkedin.com/company/d-n-craft/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-#01334c-300 hover:text-white transition"
+                className="text-#01334c-300 hover:text-[orange] transition"
               >
                 <Linkedin className="w-5 h-5" />
               </motion.a>
@@ -110,7 +110,7 @@ export default function Footer() {
                 whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 0.9 }}
                 href="mailto:info@dncraft.com"
-                className="text-#01334c-300 hover:text-white transition"
+                className="text-#01334c-300 hover:text-[orange] transition"
               >
                 <Mail className="w-5 h-5" />
               </motion.a>
