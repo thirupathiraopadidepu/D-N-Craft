@@ -207,7 +207,7 @@ export default function Services() {
           muted
           playsInline
         >
-          <source src="/public/HomeAniMain.mp4" type="video/mp4" />
+          <source src="/HomeAniMain.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
 
