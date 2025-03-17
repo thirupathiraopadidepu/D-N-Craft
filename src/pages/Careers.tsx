@@ -418,10 +418,11 @@ export default function Careers() {
             {/* Quote Text */}
             <div className="max-w-4xl text-left">
               <img
-                src={"public/careers/careers1.png"}
+                src="/careers/careers1.png"
                 alt="quote"
                 className="w-80 mb-4 mx-auto h-80"
               />
+
               <p className="text-1xl md:text-2xl font-semibold leading-snug">
                 Find your fire, chase your dreams, and turn your passion into
                 your profession..
