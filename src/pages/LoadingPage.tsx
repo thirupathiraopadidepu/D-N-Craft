@@ -30,7 +30,7 @@ export default function LoadingPage({
           }}
         >
           <img
-            src="public/careers/careers1.png"
+            src="/careers/careers1.png"
             alt="Front Side"
             className="w-full h-full object-cover rounded-lg shadow-xl"
           />
@@ -45,7 +45,7 @@ export default function LoadingPage({
           }}
         >
           <img
-            src="public/careers/careers2.png"
+            src="/careers/careers2.png"
             alt="Back Side"
             className="w-full h-full object-cover rounded-lg shadow-xl"
           />

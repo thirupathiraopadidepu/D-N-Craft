@@ -122,7 +122,7 @@ export default function Contact() {
               className="backdrop-xl bg bg-[#EDF7ED]  text-white border border-white/20 p-8 rounded-2xl shadow-xl relative"
             >
               <img
-                src="public\careers\contact.jpeg"
+                src="\careers\contact.jpeg"
                 alt="Interior Design"
                 className="absolute inset-0 w-full h-full object-cover opacity-40 rounded-2xl"
               />

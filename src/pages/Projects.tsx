@@ -50,14 +50,14 @@ const projects = [
 
 // Sample client logos (Replace with real ones)
 const clientLogos = [
-  "public/client logos/client1.jpg",
-  "public/client logos/client2.png",
-  "public/client logos/client3.jpg",
-  "public/client logos/client4.png",
-  "public/client logos/client5.png",
-  "public/client logos/client6.jpg",
-  "public/client logos/client7.png",
-  "public/client logos/client8.png",
+  "/client-logos/client1.jpg",
+  "/client-logos/client2.png",
+  "/client-logos/client3.jpg",
+  "/client-logos/client4.png",
+  "/client-logos/client5.png",
+  "/client-logos/client6.jpg",
+  "/client-logos/client7.png",
+  "/client-logos/client8.png",
 ];
 
 export default function Projects() {

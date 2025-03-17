@@ -51,19 +51,19 @@ const milestones = [
 
 const aboutImages = [
   {
-    src: "public/about/about1.jpg",
+    src: "/about/about1.jpg",
     alt: "Interior Design Concept",
     context:
       "From conceptualization to execution, we put our heart and soul into every interior design project.",
   },
   {
-    src: "public/about/about2.jpg",
+    src: "/about/about2.jpg",
     alt: "Interior Design Project",
     context:
       "Our interior design projects are a reflection of our commitment to quality, innovation, and customer satisfaction.",
   },
   {
-    src: "public/about/about3.jpg",
+    src: "/about/about3.jpg",
     alt: "Interior Design Solution",
     context:
       "At D&N CRAFT, we provide comprehensive interior design solutions that cater to the specific needs of our clients.",
@@ -140,7 +140,7 @@ export default function About() {
             className="relative w-full h-[600px] overflow-hidden transform skew-x-12"
           >
             <img
-              src="public/about/vmabout1.png"
+              src="/about/vmabout1.png"
               alt="About"
               className="w-[600px] h-[600px] object-cover transform -skew-x-12"
             />
