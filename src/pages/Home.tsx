@@ -108,7 +108,8 @@ export default function Services() {
             <Marquee
               speed={50}
               gradient={false}
-              className="text-medium md:text-2xl font-bold mb-14 text-navy-900 uppercase tracking-wide"
+              className="text-medium md:text-2xl font-bold mb-16 text-navy-900 uppercase tracking-wide"
+              style={{ marginTop: -35 }}
             >
               D&N CRAFT{" "}
               <span className="mx-6 border-l-2 border-navy-900 h-full"></span>
