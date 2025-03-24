@@ -175,7 +175,7 @@ import { ChevronLeft, ChevronRight } from "lucide-react";
 
 const projects = [
   {
-    title: "Meslova Systems Private Limited",
+    title: "MESLOVA SYSTEMS PRIVATE LIMITED",
     images: ["meslova1.jpg", "meslova2.jpg", "meslova3.jpg", "meslova4.png"],
     description:
       "Meslova designs, develops and delivers domain specific products and applications using Artificial Intelligence to some of the largest government and enterprise customers worldwide. All of Meslova Products and platforms are designed ground up with highest level of quality.",
