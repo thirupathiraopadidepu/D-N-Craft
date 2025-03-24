@@ -22,7 +22,7 @@ const milestones = [
   { year: "26000 SFT", event: "NSL - HYDERABAD" },
   { year: "25000 SFT", event: "AXISCADES - HYDERABAD" },
   { year: "20000 SFT", event: "MESLOVA - HYDERABAD" },
-  { year: "20000 SFT", event: "MESLOVA - HYDERABAD" },
+  { year: "20000 SFT", event: "MESLOVA PHASE II - HYDERABAD" },
   { year: "20000 SFT", event: "BHAGIRADHA CHEMICALS - HYDERABAD" },
   { year: "18000 SFT", event: "EMMERSON - HYDERABAD" },
   { year: "18000 SFT", event: "SYNTIZEN - HYDERABAD" },
@@ -202,8 +202,8 @@ export default function About() {
       </div>
 
       {/* About Images Fullscreen Carousel Section */}
-      <div className="py-16 bg-gray-50">
-        <div className="w-full h-[500px] relative">
+      <div className="py-16">
+        <div className="w-full h-[600px] relative">
           <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}

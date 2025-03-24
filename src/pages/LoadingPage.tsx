@@ -11,7 +11,7 @@ export default function LoadingPage({
   };
 
   return (
-    <section className="relative w-full h-screen flex flex-col items-center justify-center bg-gradient-to-r from-gray-900 via-gray-800 to-black">
+    <section className="relative w-full h-screen flex flex-col items-center justify-center bg-gray-900">
       {/* Flip Animation Wrapper */}
       <motion.div
         className="relative w-[450px] h-[450px] flex items-center justify-center"
@@ -30,9 +30,9 @@ export default function LoadingPage({
           }}
         >
           <img
-            src="/careers/careers1.png"
+            src="/loadingpage/D&Nloadimg1.png"
             alt="Front Side"
-            className="w-full h-full object-cover rounded-lg shadow-xl"
+            className="w-full h-full object-cover "
           />
         </div>
 
@@ -45,9 +45,9 @@ export default function LoadingPage({
           }}
         >
           <img
-            src="/careers/careers2.png"
+            src="/loadingpage/D&Nloadimg2.png"
             alt="Back Side"
-            className="w-full h-full object-cover rounded-lg shadow-xl"
+            className="w-full h-full object-cover"
           />
         </div>
       </motion.div>

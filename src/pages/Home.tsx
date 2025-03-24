@@ -30,6 +30,29 @@ export default function Services() {
     },
   ];
 
+  const data = [
+    {
+      imgSrc: "/home/Hani1.jpeg",
+      title: "Modern Interiors",
+      description: "Transforming spaces with elegant and modern designs.",
+    },
+    {
+      imgSrc: "/home/Hani2.jpeg",
+      title: "Luxury Living",
+      description: "Exclusive designs for premium living experiences.",
+    },
+    {
+      imgSrc: "/home/Hani3.jpeg",
+      title: "Office Spaces",
+      description: "Enhancing productivity with stylish office interiors.",
+    },
+    {
+      imgSrc: "/home/Hani4.jpeg",
+      title: "Custom Designs",
+      description: "Tailor-made interiors to match your vision and style.",
+    },
+  ];
+
   const whyChooseUs = [
     "Years of industry experience",
     "Innovative and client-focused approach",
@@ -127,7 +150,6 @@ export default function Services() {
           </div>
         </div>
       </section>
-
       {/* Services Section */}
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -197,7 +219,6 @@ export default function Services() {
           </div>
         </div>
       </section>
-
       {/* Video Section After Services */}
       <section className="relative w-full h-screen overflow-hidden">
         <video
@@ -214,7 +235,6 @@ export default function Services() {
         {/* Animated Overlay for a Stylish Effect */}
         <div className="absolute inset-0 bg-black/30 animate-fadeIn"></div>
       </section>
-
       {/* Why Choose Us Section */}
       <section className="relative bg-[#EDF7ED] text-navy-900 py-16">
         {/* Zigzag Mountain Shape at the Top */}
@@ -263,48 +283,51 @@ export default function Services() {
           </div>
         </div>
       </section>
-      {/* Free Consultation Popup Trigger - Now Centered */}
-      {/* <motion.button
-        whileHover={{ scale: 1.1 }}
-        transition={{ type: "spring", stiffness: 300 }}
-        onClick={() => setShowPopup(true)}
-        className="fixed bottom-8 left-[40%]  bg-white text-black font-semibold px-6 py-3 rounded-full shadow-lg hover:bg-yellow-600"
-      >
-        Get Your First Layout Consultation for Free
-      </motion.button>
-
-      
-      {showPopup && (
-        <motion.div
-          initial={{ opacity: 0, scale: 0.8 }}
-          animate={{ opacity: 1, scale: 1 }}
-          transition={{ duration: 0.3 }}
-          className="fixed top-0 left-0 w-full h-full flex justify-center items-center bg-black bg-opacity-50"
-        >
-          <div className="bg-white p-6 rounded-lg shadow-lg text-center">
-            <h2 className="text-xl font-bold mb-2">🎉 Congratulations!</h2>
-            <p>Get your first layout consultation absolutely free.</p>
-
-          
-            <div className="flex items-center justify-center mt-4">
-              <Phone className="w-5 h-5 text-blue-600 mr-2" />
-              <a
-                href="tel:+919911844299"
-                className="text-lg font-bold text-blue-600 hover:underline"
-              >
-                +91 9911844299
-              </a>
-            </div>
-
-            <button
-              onClick={() => setShowPopup(false)}
-              className="mt-4 px-4 py-2 bg-red-500 text-white rounded-full hover:bg-red-600"
+      <section className="p-8 bg-white">
+        <div className="grid grid-cols-2 gap-8">
+          {data.map((item, index) => (
+            <div
+              key={index}
+              className="relative group overflow-hidden rounded-md shadow-xl"
             >
-              Close
-            </button>
-          </div>
+              {/* Full-Size Image (Always Visible) */}
+              <img
+                src={item.imgSrc}
+                alt={item.title}
+                className="w-full h-96 object-cover transition-transform duration-700 ease-in-out group-hover:scale-105"
+              />
 
-        </motion.div> */}
+              {/* Paper Folding Overlay */}
+              <div className="absolute inset-0 flex justify-center items-center pointer-events-none">
+                {/* Left Fold */}
+                <div
+                  className="absolute inset-y-0 left-0 w-1/2 bg-blue-900 bg-opacity-80 text-white p-6
+              flex flex-col justify-center items-end transform origin-left -translate-x-full 
+              group-hover:translate-x-0 transition-transform duration-700 ease-in-out"
+                >
+                  <h3 className="text-2xl font-bold">{item.title}</h3>
+                </div>
+
+                {/* Right Fold */}
+                <div
+                  className="absolute inset-y-0 right-0 w-1/2 bg-blue-900 bg-opacity-80 text-white p-6
+              flex flex-col justify-center items-start transform origin-right translate-x-full 
+              group-hover:translate-x-0 transition-transform duration-700 ease-in-out delay-200"
+                >
+                  {item.description && (
+                    <p className="text-lg">{item.description}</p>
+                  )}
+                </div>
+              </div>
+
+              {/* Title Bar (Always Visible) */}
+              <div className="absolute bottom-0 left-0 w-full bg-blue-900 px-6 py-4 text-white font-semibold text-lg">
+                / {item.title}
+              </div>
+            </div>
+          ))}
+        </div>
+      </section>
     </div>
   );
 }
