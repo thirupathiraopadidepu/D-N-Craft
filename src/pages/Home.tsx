@@ -111,9 +111,9 @@ export default function Services() {
               className="text-medium md:text-2xl font-bold mb-14 text-navy-900 uppercase tracking-wide"
             >
               D&N CRAFT{" "}
-              <span className="mx-6 border-l-2 border-white h-full"></span>
+              <span className="mx-6 border-l-2 border-navy-900 h-full"></span>
               Transforming Spaces{" "}
-              <span className="mx-6 border-l-2 border-white h-full"></span>
+              <span className="mx-6 border-l-2 border-navy-900 h-full"></span>
               Inspired Interiors
             </Marquee>
 

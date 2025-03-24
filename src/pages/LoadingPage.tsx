@@ -42,10 +42,13 @@ export default function LoadingPage({
           style={{
             transform: "rotateY(180deg)",
             backfaceVisibility: "hidden",
+            transformOrigin: "center",
+            scale: "1.2",
+            height: "100%",
           }}
         >
           <img
-            src="/loadingpage/D&Nloadimg2.png"
+            src="/loadingpage/D&Nloadimg3.png"
             alt="Back Side"
             className="w-full h-full object-cover"
           />
