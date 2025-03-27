@@ -119,31 +119,31 @@ export default function Contact() {
               initial={{ opacity: 0, x: -20 }}
               whileInView={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.8 }}
-              className="backdrop-xl bg bg-[#EDF7ED]  text-white border border-white/20 p-8 rounded-2xl shadow-xl relative"
+              className="backdrop-xl bg-orange-600  text-white border border-white/20 p-8 rounded-2xl shadow-xl relative"
             >
-              <img
+              {/* <img
                 src="\careers\contact.jpeg"
                 alt="Interior Design"
                 className="absolute inset-0 w-full h-full object-cover opacity-40 rounded-2xl"
-              />
+              /> */}
               <h2
                 className="text-3xl font-semibold mb-6 flex items-center cursor-pointer relative z-10"
                 onClick={handleViewOnMap}
               >
-                <motion.span
+                {/* <motion.span
                   animate={{ opacity: [1, 0.2, 1] }}
                   transition={{ duration: 1, repeat: Infinity }}
                   className="mr-2 flex items-center"
                 >
                   <div className="loader"></div>
-                </motion.span>
+                </motion.span> */}
                 Our Location
               </h2>
               <p className="mb-4 text-lg relative z-10">
                 <strong>Phone:</strong> +91 9911844299
               </p>
               <p className="mb-4 text-lg relative z-10">
-                <strong>Email:</strong> info@dncraft.com
+                <strong>Email:</strong> info@dncraft.in
               </p>
               <p className="mb-6 text-lg relative z-10">
                 <strong>Address:</strong> #503, Jain Sadguru Capital Park,
@@ -232,7 +232,7 @@ export default function Contact() {
 
                 <button
                   type="submit"
-                  className="w-full bg-blue-600 text-white py-3 rounded-lg font-semibold hover:scale-105 transition-all duration-300"
+                  className="w-full bg-orange-600 text-white py-3 rounded-lg font-semibold hover:scale-105 transition-all duration-300"
                 >
                   Send Message
                 </button>

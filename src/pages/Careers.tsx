@@ -364,8 +364,8 @@ export default function Careers() {
         <h2 className="text-3xl font-bold mb-6 text-center text-navy-600">
           Experience the Best at D&N Craft
         </h2>
-        <p className="text-lg mb-10 text-center text-gray-600">
-          Discover the benefits of being part of our dynamic and growing team.
+        <p className=" mb-10 text-center text-gray-600">
+          Be a part of our dynamic team and grow with us
         </p>
         <div className="grid grid-cols-1 md:grid-cols-5 gap-6 px-10 max-w-7xl mx-auto mb-20">
           {[
@@ -384,13 +384,11 @@ export default function Careers() {
                 whileTap={{ scale: 0.9 }}
                 className="border border-orange-500 p-6 rounded-full inline-block shadow-md bg-white"
               >
-                <div className="text-3xl animate-pulse">
+                <div className="text-2xl animate-pulse">
                   {item.split(" ")[0]}
                 </div>
               </motion.div>
-              <h3 className="mt-4 font-semibold text-gray-700">
-                {item.slice(2)}
-              </h3>
+              <h3 className="mt-4 text-gray-700">{item.slice(2)}</h3>
             </div>
           ))}
         </div>

@@ -219,14 +219,14 @@ const projects = [
 ];
 
 const clientLogos = [
-  "/client-logos/client1.jpg",
-  "/client-logos/client2.png",
-  "/client-logos/client3.jpg",
-  "/client-logos/client4.png",
-  "/client-logos/client5.png",
-  "/client-logos/client6.jpg",
-  "/client-logos/client7.png",
-  "/client-logos/client8.png",
+  { src: "/client-logos/client1.jpg", size: "h-12" },
+  { src: "/client-logos/client2.png", size: "h-12" },
+  { src: "/client-logos/client3.jpg", size: "h-20" }, // Increased size
+  { src: "/client-logos/client4.png", size: "h-10" },
+  { src: "/client-logos/client5.png", size: "h-40" },
+  { src: "/client-logos/client6.jpg", size: "h-50" },
+  { src: "/client-logos/client7.png", size: "h-20" },
+  { src: "/client-logos/client8.png", size: "h-12" },
 ];
 
 export default function Projects() {
@@ -260,12 +260,12 @@ export default function Projects() {
       {/* Client Logos Section */}
       <div className="py-12 mt-12 bg-white">
         <h2 className="text-center text-3xl font-bold text-gray-800 mb-6">
-          Designed for Success{" "}
+          Designed for Success
         </h2>
 
         <div className="relative overflow-hidden">
           <motion.div
-            className="flex space-x-16"
+            className="flex space-x-20 items-center" // Increased space between logos
             initial={{ x: "100%" }}
             animate={{ x: "-100%" }}
             transition={{
@@ -277,9 +277,10 @@ export default function Projects() {
             {[...clientLogos, ...clientLogos].map((logo, index) => (
               <img
                 key={index}
-                src={logo}
+                src={logo.src}
                 alt={`Client ${index + 1}`}
-                className="h-16 object-contain mb-10"
+                className={`object-contain mb-10 ${logo.size}`}
+                style={{ maxHeight: "120px", width: "auto" }} // Increased max height
               />
             ))}
           </motion.div>
