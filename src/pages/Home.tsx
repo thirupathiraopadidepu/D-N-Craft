@@ -110,7 +110,7 @@ export default function Services() {
               gradient={false}
               className="text-medium md:text-1xl  mb-16 text-[#fbd8b6] uppercase tracking-wide>
               Transforming Spaces uppercase tracking-wide"
-              style={{ marginTop: -50 }}
+              style={{ marginTop: -100 }}
             >
               D&N CRAFT{" "}
               <span className="mx-6 border-l-2 border-[#fbd8b6] h-full"></span>
