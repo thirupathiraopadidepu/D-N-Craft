@@ -104,7 +104,7 @@ export default function About() {
           transition={{ duration: 0.8 }}
         >
           <h1 className="text-4xl font-bold text-navy-900 mb-4">About Us</h1>
-          <p className="text-gray-600 max-w-2xl">
+          <p className="text-gray-600">
             D&N CRAFT has come a long way since 2016, growing into a company
             with a mission to be ranked as the best Interiors and Retrofit firm
             in India. And that's not all, thanks to our satisfied clientele,

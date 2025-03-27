@@ -108,13 +108,14 @@ export default function Services() {
             <Marquee
               speed={50}
               gradient={false}
-              className="text-medium md:text-2xl font-bold mb-16 text-navy-900 uppercase tracking-wide"
-              style={{ marginTop: -40 }}
+              className="text-medium md:text-1xl  mb-16 text-[#fbd8b6] uppercase tracking-wide>
+              Transforming Spaces uppercase tracking-wide"
+              style={{ marginTop: -50 }}
             >
               D&N CRAFT{" "}
-              <span className="mx-6 border-l-2 border-navy-900 h-full"></span>
+              <span className="mx-6 border-l-2 border-[#fbd8b6] h-full"></span>
               Transforming Spaces{" "}
-              <span className="mx-6 border-l-2 border-navy-900 h-full"></span>
+              <span className="mx-6 border-l-2 border-[#fbd8b6] h-full"></span>
               Inspired Interiors
             </Marquee>
 
@@ -129,13 +130,13 @@ export default function Services() {
             />
 
             {/* Heading */}
-            <h1 className="text-5xl md:text-7xl font-bold mb-8 text-[#fbd8b6]">
-              Transforming Spaces
+            <h1 className="text-5xl md:text-5xl font-bold mb-4 text-[#fbd8b6]">
+              TRANSFORMING SPACES
             </h1>
 
             {/* Subtext */}
-            <p className="text-xl mb-12 text-[#fbd8b6] font-bold">
-              CREATING EXCEPTIONAL INTERIOR EXPERIENCES THAT INSPIRE AND ELEVATE
+            <p className="text-medium md:text-1xl mb-12 text-[#fbd8b6]">
+              INNOVATIVE INTERIORS FOR INSPIRED WORKPLACES
             </p>
 
             {/* Button */}
@@ -143,7 +144,7 @@ export default function Services() {
               <motion.button
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
-                className="px-8 py-4 bg-[#fbd8b6] text-[#2a2a2a] rounded-md font-semibold hover:bg-[#e4c49a] transition"
+                className="px-8 py-4 bg-[#fbd8b6] text-[#2a2a2a] rounded-md font-light hover:bg-[#e4c49a] transition"
               >
                 Get Started
               </motion.button>
@@ -221,7 +222,7 @@ export default function Services() {
         </div>
       </section>
       {/* Video Section After Services */}
-      <section className="relative w-full h-screen overflow-hidden">
+      <section className="relative w-full h-[70vh] overflow-hidden">
         <video
           className="absolute top-0 left-0 w-full h-full object-cover"
           autoPlay
@@ -229,7 +230,7 @@ export default function Services() {
           muted
           playsInline
         >
-          <source src="/HomeAniMain.mp4" type="video/mp4" />
+          <source src="/hanividfinal.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
 
@@ -260,7 +261,7 @@ export default function Services() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
-            className="text-4xl font-sans font-bold leading-none tracking-tight text-navy-900"
+            className="text-4xl font-bold leading-none tracking-tight text-navy-900"
           >
             Why Choose Us?
           </motion.h2>

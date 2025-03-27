@@ -46,7 +46,7 @@ export default function Navbar() {
             >
               <Link
                 to={item.path}
-                className="text-gray-800 font-medium   hover:bg-[#01334c]  hover:text-white px-3 py-2 rounded-md transition duration-300"
+                className="text-gray-800  hover:bg-[#01334c]  hover:text-white px-3 py-2 rounded-md transition duration-300"
               >
                 {item.name}
               </Link>
@@ -57,7 +57,7 @@ export default function Navbar() {
           <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.9 }}>
             <Link
               to="/contact"
-              className="relative inline-flex items-center justify-center px-6 py-2 text-sm font-semibold text-white bg-[#01334c] rounded-full shadow-md overflow-hidden transition duration-300 hover:bg-[#01334c] brightness-10"
+              className="relative inline-flex items-center justify-center px-6 py-2 text-sm  text-white bg-[#01334c] rounded-full shadow-md overflow-hidden transition duration-300 hover:bg-[#01334c] brightness-10"
             >
               {/* Background Animated Glow */}
               <motion.span className="absolute inset-0 bg-#01334c" />

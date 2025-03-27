@@ -404,7 +404,7 @@ export default function Careers() {
               minHeight: "350px",
               borderTopRightRadius: "80px", // Rounded top-right corner
               marginTop: "50px", // Moved down
-              borderRadius: "20px", // Added border radius to the whole card
+              borderRadius: "0px", // Added border radius to the whole card
             }}
           >
             {/* Background large quotation marks */}
@@ -423,7 +423,7 @@ export default function Careers() {
                 className="w-80 mb-4 mx-auto h-80"
               />
 
-              <p className="text-1xl md:text-2xl font-semibold leading-snug">
+              <p className="text-1xl md:text-1.8xl font-semibold leading-snug">
                 Find your fire, chase your dreams, and turn your passion into
                 your profession..
               </p>
@@ -456,7 +456,7 @@ export default function Careers() {
                 className="w-full p-3 border border-gray-300 rounded-lg"
                 required
               />
-              <select
+              {/* <select
                 className="w-full p-3 border border-gray-300 rounded-lg"
                 required
               >
@@ -464,7 +464,7 @@ export default function Careers() {
                 <option value="Engineering">Engineering</option>
                 <option value="Marketing">Marketing</option>
                 <option value="Sales">Sales</option>
-              </select>
+              </select> */}
               <textarea
                 placeholder="Message *"
                 className="w-full p-3 border border-gray-300 rounded-lg"
